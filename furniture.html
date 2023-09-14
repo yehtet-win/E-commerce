@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GearGuru - Furniture</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/GGlogo.png" alt="gglogo">
+    <h1>GearGuru</h1>
+    <br>
+    <p>- Everything You Needs For Camping!</p>
+  </header>
+  <nav>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="camping_equipment.html">Equipments</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+        <li><a href="offers.html">Offers & Packages</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="input-search">
+    <input id="global-search" type="text" name="txtname" placeholder="Search....">
+    <label for="global-search" class="search-button">
+      <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+    </label>
+  </div>
+  <div class="float-container">
+    <div class="cart">
+      <input type="checkbox" id="cart-toggle" class="cart-toggle">
+      <label class="shopping-cart" for="cart-toggle">Cart <i class="fa-solid fa-cart-shopping fa-lg"></i></label>
+      <div class="cart-container">
+        <div class="cart-product-container">
+          <div class="cart-product">
+            <img src="images/chair1.jpg" alt="">
+            <div class="cart-product-details">
+              <p class="cart-product-name">ProductName</p>
+              <p class="cart-product-price">$20</p>
+            </div>
+            <div class="cart-product-quantity">
+              <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
+              <i class="fa-solid fa-minus fa-sm"></i>
+            </div>
+            <button>Remove</button>
+          </div>
+          <div class="cart-product">
+            <img src="images/chair1.jpg" alt="">
+            <div class="cart-product-details">
+              <p class="cart-product-name">ProductName</p>
+              <p class="cart-product-price">$20</p>
+            </div>
+            <div class="cart-product-quantity">
+              <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
+              <i class="fa-solid fa-minus fa-sm"></i>
+            </div>
+            <button>Remove</button>
+          </div>
+          <div class="cart-product">
+            <img src="images/chair1.jpg" alt="">
+            <div class="cart-product-details">
+              <p class="cart-product-name">ProductName</p>
+              <p class="cart-product-price">$20</p>
+            </div>
+            <div class="cart-product-quantity">
+              <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
+              <i class="fa-solid fa-minus fa-sm"></i>
+            </div>
+            <button>Remove</button>
+          </div>
+          <div class="cart-product">
+            <img src="images/chair1.jpg" alt="">
+            <div class="cart-product-details">
+              <p class="cart-product-name">ProductName</p>
+              <p class="cart-product-price">$20</p>
+            </div>
+            <div class="cart-product-quantity">
+              <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
+              <i class="fa-solid fa-minus fa-sm"></i>
+            </div>
+            <button>Remove</button>
+          </div>
+        </div>
+        <div class="cart-checkout">
+          <div class="cart-total">
+            <p class="p-total">Total :</p>
+            <p class="cart-total-price">$80</p>
+          </div>
+          <a href="cart.html">My Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu-container">
+      <label for="toggle" class="menu-button">Catagory&#160;&#160;&#160;&#160;<i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggle">
+      <div class="dropdown-menu">
+        <a href="#onsale">Sale Furniture</a>
+        <a href="#seating-row">Campsite Seating</a>
+        <a href="#sleeping-row">Sleeping Gear</a>
+        <a href="#table-row">Tables & Surfaces</a>
+      </div>
+    </div>
+  </div>
+  <div class="furniture">
+    <h1>Camping Furniture</h1>
+    <p>
+      Discover our diverse selection of camping furniture designed to elevate
+      your outdoor adventures. Whether you're seeking relaxation, better sleep
+      solutions, or a well-organized campsite, we offer an array of options to
+      enhance your camping comfort and convenience.
+    </p>
+  </div>
+  <div class="eqbr" id="onsale"></div>
+  <section class="on-sale-equipments">
+    <div class="on-sale-equipments-container">
+      <h2>
+        Get Set for the Outdoors - Camping Furniture on Sale Now!
+        <i class="fa-solid fa-tags fa-beat-fade fa-lg"></i>
+      </h2>
+      <p>
+        Don't miss out on these incredible deals! Whether you're planning a
+        solo expedition or a family camping trip, our sale items have got you
+        covered. Hurry, these offers won't last forever. Get your camping
+        essentials today and make your next outdoor adventure truly memorable.
+      </p>
+      <div class="on-sale-row-container">
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/chair1.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/chair4.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/sleepgear2.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="on-sale-row-container">
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/sleepgear4.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/chair6.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="sale-col-container">
+          <div class="sale-col-img-container">
+            <img src="images/sleepgear6.jpg" alt="">
+          </div>
+          <div class="sale-desc">
+            <ul>
+              <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 10</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                4.5
+              </li>
+            </ul>
+            <div class="onsale-addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="eqbr" id="seating-row"></div>
+  <section class="catg">
+    <div>
+      <h3>Campsite Seating</h3>
+      <a href="">View All</a>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/chair1.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 10</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/chair2.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Cozy Nook, Secure Closure, Instant Fold</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 18</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              4.0
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/chair3.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Dark Sleep ,Easy Stash ,Snap-and-Go</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 16</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/chair4.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 26</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/chair5.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 20</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="seemore-container">
+        <div class="saleimg">
+          <div class="imghover-container">
+            <div>
+              <img src="images/chair6.jpg" alt="tent">
+            </div>
+            <div class="slide-up-detail">
+              <button>Details</button>
+            </div>
+          </div>
+          <div class="desc">
+            <ul>
+              <li>
+                Feature:Lightweight, waterproof, easy setup for backpacking
+              </li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 16</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                3.0
+              </li>
+            </ul>
+            <div class="addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eqbr" id="sleeping-row"></div>
+  </section>
+  <section class="catg">
+    <div>
+      <h3>Sleeping Gear</h3>
+      <a href="">View All</a>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/sleepgear1.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 10</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/sleepgear2.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Cozy Nook, Secure Closure, Instant Fold</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 18</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              4.0
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/sleepgear3.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Dark Sleep ,Easy Stash ,Snap-and-Go</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 16</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/sleepgear4.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 26</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/sleepgear5.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 20</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="seemore-container">
+        <div class="saleimg">
+          <div class="imghover-container">
+            <div>
+              <img src="images/sleepgear6.jpg" alt="tent">
+            </div>
+            <div class="slide-up-detail">
+              <button>Details</button>
+            </div>
+          </div>
+          <div class="desc">
+            <ul>
+              <li>
+                Feature:Lightweight, waterproof, easy setup for backpacking
+              </li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 16</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                3.0
+              </li>
+            </ul>
+            <div class="addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eqbr" id="table-row"></div>
+  </section>
+  <section class="catg">
+    <div>
+      <h3>Tables & Surfaces</h3>
+      <a href="">View All</a>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/tent.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Lightweight, Waterproof, Easy Setup</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 10</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/tent2.png" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Cozy Nook, Secure Closure, Instant Fold</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 18</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              4.0
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/tent3.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>Feature:Dark Sleep ,Easy Stash ,Snap-and-Go</li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 16</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="salerow">
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/shelter1.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 26</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              4.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="saleimg">
+        <div class="imghover-container">
+          <div>
+            <img src="images/shelter1.jpg" alt="tent">
+          </div>
+          <div class="slide-up-detail">
+            <button>Details</button>
+          </div>
+        </div>
+        <div class="desc">
+          <ul>
+            <li>
+              Feature:Lightweight, waterproof, easy setup for backpacking
+            </li>
+            <li>Sale Price: $109.99 (was $112.99)</li>
+            <li>InStock: 20</li>
+            <li>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              3.5
+            </li>
+          </ul>
+          <div class="addcart">
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="seemore-container">
+        <div class="saleimg">
+          <div class="imghover-container">
+            <div>
+              <img src="images/shelter1.jpg" alt="tent">
+            </div>
+            <div class="slide-up-detail">
+              <button>Details</button>
+            </div>
+          </div>
+          <div class="desc">
+            <ul>
+              <li>
+                Feature:Lightweight, waterproof, easy setup for backpacking
+              </li>
+              <li>Sale Price: $109.99 (was $112.99)</li>
+              <li>InStock: 16</li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                3.0
+              </li>
+            </ul>
+            <div class="addcart">
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eqbr"></div>
+  </section>
+  <div class="Know">
+    <h3>Essential Furniture For Camping</h3>
+  </div>
+
+  <div class="essential-row">
+    <div class="Youtube">
+      <iframe src="https://www.youtube.com/embed/-CHjeeLeEDE?si=8W3Guvthr0r6vz_0"></iframe>
+    </div>
+  </div>
+  <a href="#top" class="scroll-to-top">
+    <div class="topbtn">
+      <i class="fa-solid fa-arrow-up fa-xl"></i>
+    </div>
+  </a>
+  <footer>
+    <div class="footer-br"></div>
+    <div class="footer-upper-container">
+      <div class="footer-group">
+        <img src="images/GGlogo-footer.png" alt="gglogo">
+      </div>
+      <div class="footer-group">
+        <div class="contactus">
+          <h2>Contact Us</h2>
+          <ul>
+            <li>
+              <p>Ph_09254778132</p>
+            </li>
+            <li>
+              <p>geargurusupport@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-group">
+        <ul class="footer-middle-col">
+          <li><a href="">Terms & Conditions</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-group">
+        <div class="footer-icons-container">
+          <h3>Find Us On</h3>
+          <a href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook-f fa-lg"></i>
+          </a>
+          <a href="https://www.youtube.com/">
+            <i class="fa-brands fa-youtube fa-lg"></i>
+          </a>
+          <a href="https://instagram.com/">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-br"></div>
+    <div class="footer-under-p">
+      <p>&copy;opyRight Reserved 2023</p>
+      <p>
+        This website was developed by Ye Htet Win for only Educational
+        Purpose, Not Commercial.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
