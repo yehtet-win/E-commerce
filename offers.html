@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GearGuru - Offer And Packages</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <img src="images/GGlogo.png" alt="gglogo" />
+    <img src="images/GGlogo.png" alt="gglogo">
     <h1>GearGuru</h1>
-    <br />
+    <br>
     <p>- Everything You Needs For Camping!</p>
   </header>
   <nav>
@@ -43,10 +43,10 @@
       <div class="cart-container">
         <div class="cart-product-container">
           <div class="cart-product">
-            <img src="images/chair1.jpg" alt="">
+            <img src="images/tent2.jpg" alt="KTT Extra Large Tent">
             <div class="cart-product-details">
-              <p class="cart-product-name">ProductName</p>
-              <p class="cart-product-price">$20</p>
+              <p class="cart-product-name">KTT Extra Large Tent</p>
+              <p class="cart-product-price">$195.99</p>
             </div>
             <div class="cart-product-quantity">
               <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
@@ -55,10 +55,10 @@
             <button>Remove</button>
           </div>
           <div class="cart-product">
-            <img src="images/chair1.jpg" alt="">
+            <img src="images/cookware2.jpg" alt="Ultra Compact Camping Cookware Kit">
             <div class="cart-product-details">
-              <p class="cart-product-name">ProductName</p>
-              <p class="cart-product-price">$20</p>
+              <p class="cart-product-name">Ultra Compact Camping Cookware Kit</p>
+              <p class="cart-product-price">$59.99</p>
             </div>
             <div class="cart-product-quantity">
               <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
@@ -67,10 +67,10 @@
             <button>Remove</button>
           </div>
           <div class="cart-product">
-            <img src="images/chair1.jpg" alt="">
+            <img src="images/chair1.jpg" alt="Coleman Outpost Breeze Portable Folding Deck Chair">
             <div class="cart-product-details">
-              <p class="cart-product-name">ProductName</p>
-              <p class="cart-product-price">$20</p>
+              <p class="cart-product-name">Coleman Outpost Breeze Portable Folding Deck Chair</p>
+              <p class="cart-product-price">$44.99</p>
             </div>
             <div class="cart-product-quantity">
               <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
@@ -79,10 +79,22 @@
             <button>Remove</button>
           </div>
           <div class="cart-product">
-            <img src="images/chair1.jpg" alt="">
+            <img src="images/sleepgear5.jpg" alt="Kelty Cosmic 20 Degree 550 Down Fill Sleeping Bag">
             <div class="cart-product-details">
-              <p class="cart-product-name">ProductName</p>
-              <p class="cart-product-price">$20</p>
+              <p class="cart-product-name">Kelty Cosmic 20 Degree 550 Down Fill Sleeping Bag</p>
+              <p class="cart-product-price">$84.99</p>
+            </div>
+            <div class="cart-product-quantity">
+              <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
+              <i class="fa-solid fa-minus fa-sm"></i>
+            </div>
+            <button>Remove</button>
+          </div>
+          <div class="cart-product">
+            <img src="images/budget-package1.jpg" alt="Minimalist Tent Bundle">
+            <div class="cart-product-details">
+              <p class="cart-product-name">Minimalist Tent Bundle</p>
+              <p class="cart-product-price">$149.99</p>
             </div>
             <div class="cart-product-quantity">
               <i class="fa-solid fa-plus fa-sm"></i><span class="count">1</span>
@@ -94,113 +106,442 @@
         <div class="cart-checkout">
           <div class="cart-total">
             <p class="p-total">Total :</p>
-            <p class="cart-total-price">$80</p>
+            <p class="cart-total-price">$535.95</p>
           </div>
           <a href="cart.html">My Cart</a>
         </div>
       </div>
     </div>
     <div class="menu-container">
-      <label for="toggle" class="menu-button">Catagory&#160;&#160;&#160;&#160;<i class="fa-solid fa-bars"></i></label>
-      <input type="checkbox" id="toggle" />
+      <label for="toggle" class="menu-button">Category&#160;&#160;&#160;&#160;<i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggle">
       <div class="dropdown-menu">
+        <a href="#winter-sale">Winter Sales</a>
         <a href="#salepackage-row">Sale Packages</a>
         <a href="#starter-row">Starter Packages</a>
-        <a href="#budgetpackages-row">Budget Packages</a>
+        <a href="#budgetpackages-row" class="menu-last-row">Budget Packages</a>
       </div>
     </div>
   </div>
-  <div class="packages">
-    <h1>Explore Our Exclusive Camping Equipment Packages</h1>
+  <div class="offersandpackages">
+    <h1>Explore Our Exclusive Camping Equipment Offers & Packages</h1>
     <p>
       Discover high-quality essentials that combine performance and
       affordability, allowing you to embark on memorable journeys without
       breaking the bank
     </p>
   </div>
-  <div class="eqbr" id="salepackage-row"></div>
-  <section class="sale-packages-section"></section>
-  <h2 class="h2-sale-packages">
-    Hurry, limited-time sale packages available now! Don't miss out!
-    <i class="fa-solid fa-tag fa-beat-fade"></i>
-  </h2>
-  <div class="sale-package-container">
-    <div class="sale-package">
-      <div class="sale-package-row1">
-        <div class="sale-package-col">
-          <img src="images/sale-package1.jpg" alt="">
+  <div class="eqbr"></div>
+  <embed src="images/winter-sale.jpg" class="winter-sale-img" id="winter-sale">
+  <div class="winter-sale" id="winter-sale-row">
+    <h2><i class="fa-solid fa-snowflake fa-xl"></i> Chill Out with Hot Savings: Winter Wonderland Sale! <i
+        class="fa-solid fa-snowflake fa-xl"></i></h2>
+    <div class="winter-sale-items-container">
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem1.jpg" alt="Guide Gear Oversized XL Padded Camping Chair">
+          <div class="winter-sale-slide-up-detail">
+            <a href="#GuideGearOversizedXLPaddedCampingChair">Details</a>
+          </div>
         </div>
-        <div class="sale-package-col2">
+        <div class="winter-sale-item-desc">
           <ul>
-            <li>2 Person Car Camping Package</li>
-            <li>Sale Price : <span class="sale-package-price">$467.50 </span>(25% OFF)</li>
-            <li>(Original Price : $649.99)</li>
+            <li class="winter-sale-item-desc-1st">Guide Gear Oversized XL Padded Camping Chair</li>
+            <li>Sale Price : $64.99</li>
+            <li>(Original : $79.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
           </ul>
-          <button>ADD TO CART</button>
+        </div>
+        <button>ADD TO CART</button>
+      </div>
+      <div class="popup-detail" id="GuideGearOversizedXLPaddedCampingChair">
+        <div class="popup-detail-inner-container">
+          <div class="popup-detail-inner-container-col">
+            <img src="images/winter-saleitem1.jpg" alt="Guide Gear Oversized XL Padded Camping Chair">
+          </div>
+          <div class="popup-detail-inner-container-col">
+            <div class="popup-detail-item-detail">
+              <div class="popup-detail-item-name">
+                Guide Gear Oversized XL Padded Camping Chair, Portable, Folding, Large Camp Lounge Chairs for Outdoor,
+                Adults, Men and Women, Heavy-Duty 400-lb. Capacity, with Cup Holder, Green
+                <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="popup-detail-features">
+                <ul>
+                  <li>Sale Price</li>
+                  <li>Instock</li>
+                  <li>Special Feature</li>
+                  <li>Brand</li>
+                  <li>Back Style</li>
+                  <li>Product Dimensions</li>
+                  <li>Color</li>
+                </ul>
+                <ul>
+                  <li>: $64.99</li>
+                  <li>: 18</li>
+                  <li>: Portable,Sturdy</li>
+                  <li>: Guide Gear</li>
+                  <li>: Solid Back</li>
+                  <li>: 28"D x 37"W x 40.5"H</li>
+                  <li>: Green</li>
+                </ul>
+              </div>
+              <div class="about-item">
+                <span>About Item</span>
+                <ul>
+                  <li>PORTABLE AND PACKABLE - These portable camping chairs fold up for convenient storage and
+                    transport, with a deluxe expandable compression carry bag and backpack-style straps for easy
+                    carrying.</li>
+                  <li>LUXURIOUSLY COMFORTABLE - High-loft padding throughout the seat, backrest, and headrest of the
+                    folding camp chair adds lumbar and neck support while lounging.</li>
+                  <li>400-LB CAPACITY - Built with a sturdy steel frame, this camping folding chair offers a 400-lb
+                    weight capacity. The heavy duty camping chair is made with durable 600D polyester oxford fabric for
+                    long-lasting use.</li>
+                  <li>OVERSIZED AND PADDED - Enjoy the extra room and comfort of this oversized extra large camping
+                    chair. The padded camping chair also features a super-sized cup holder for your favorite beverage.
+                  </li>
+                  <li>PORTABLE AND PACKABLE - These portable camping chairs fold up for convenient storage and
+                    transport, with a deluxe expandable compression carry bag and backpack-style straps for easy
+                    carrying.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="popup-detail-button">
+              <a href="#winter-sale-row">Close</a>
+              <button>Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sale-package-row2">
-        One 4-Person Tent ,2 Sleeping Bags ,2 Basecamp Sleeping Pads ,2 TravelChair Camp Chairs ,2 Rechargeable Black
-        Diamond Headlamps ,One Electric UCO Lantern ,2-Burner Camp Stove ,4-Person Camp Cookset and One Premium Cooler
-      </div>
-    </div>
-    <div class="sale-package">
-      <div class="sale-package-row1">
-        <div class="sale-package-col">
-          <img src="images/sale-package2.jpg" alt="">
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem2.jpg" alt="ARTIMOR Beanie Hats Winter Hat">
+          <div class="winter-sale-slide-up-detail">
+            <a href="#ARTIMORBeanieHatsWinterHat">Details</a>
+          </div>
         </div>
-        <div class="sale-package-col2">
+        <div class="winter-sale-item-desc">
           <ul>
-            <li>Coleman - Solo Camp Start Package</li>
-            <li>Sale Price : <span class="sale-package-price">$339.99 </span>(15% OFF)</li>
-            <li>(Original Price : $400)</li>
+            <li class="winter-sale-item-desc-1st">ARTIMOR Beanie Hats Winter Hat</li>
+            <li>Sale Price : $9.99</li>
+            <li>(Original : $15.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i> 4.5/5</li>
           </ul>
-          <button>ADD TO CART</button>
+        </div>
+        <button>ADD TO CART</button>
+      </div>
+      <div class="popup-detail" id="ARTIMORBeanieHatsWinterHat">
+        <div class="popup-detail-inner-container">
+          <div class="popup-detail-inner-container-col">
+            <img src="images/winter-saleitem2.jpg" alt="ARTIMOR Beanie Hats Winter Hat">
+          </div>
+          <div class="popup-detail-inner-container-col">
+            <div class="popup-detail-item-detail">
+              <div class="popup-detail-item-name">
+                ARTIMOR Beanie Hats Winter Hats for Men Women Cuffed Knit Hat for Camping Hiking, Beanies Gift Black
+                <br>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i> 4.5/5
+              </div>
+              <div class="popup-detail-features">
+                <ul>
+                  <li>Sale Price</li>
+                  <li>Instock</li>
+                  <li>Color</li>
+                </ul>
+                <ul>
+                  <li>: $9.99</li>
+                  <li>: 20</li>
+                  <li>: Deep Heather</li>
+                </ul>
+              </div>
+              <div class="about-item">
+                <span>About Item</span>
+                <ul>
+                  <li>100% Acrylic</li>
+                  <li>Elastic closure</li>
+                  <li>Machine Wash</li>
+                  <li>Material:These Winter Hats Made Of High Quality Acrylic , Which Are Soft, Comfortable, And Durabl
+                  </li>
+                  <li>One Size Fits Most People:The Men Beanie Made Of Highly Elastic Knitting Material,And Fit
+                    Perfectly The Head Circumference,Instead Of Slipping Off Your Head Like Other Hats, Wear It For Both
+                    Head And Ear Protection In The Snow.</li>
+                  <li>Applicable Occasions:This Winter Hat Is Very Suitable For Outdoor Activities In Winter,Like
+                    Running,Cycling, Touring, Walking Etc.The Tight Weave Won'T Reveal The Cold Wind Entering,If Just
+                    Dont Want To Do Your Hair,Our Chunky Knit Hat Is A Top Choice For Daily Use
+                  </li>
+                  <li>Unique Gifts:Beanies Are A Unique Choice As A Fashion Item Or As A Hat To Keep Warm. Beanies Are
+                    Ideal Choice As Gift To Your Friends, Classmates, Parent, Lover For Special Day Such As Christmas,
+                    Birthday, Anniversary, Etc.</li>
+                  <li>Washing Tips:Please Wash Beans By Hand As Much As Possible, If You Want To Machine Wash, Please
+                    Turn The Beanie Hat Over Beforehand And Add Laundry Softener.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="popup-detail-button">
+              <a href="#winter-sale-row">Close</a>
+              <button>Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sale-package-row2">
-        One 1-Person Tents, 1 Sleeping Bag, 1 Stove, 1 Cookware Set, 1 Aluminium Table, 1 Camping Chair, 1 Lantern
-        <br>Set of 11, Package with essential camping items in one
-      </div>
-    </div>
-    <div class="sale-package">
-      <div class="sale-package-row1">
-        <div class="sale-package-col">
-          <img src="images/sale-package3.jpg" alt="">
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem3.jpg" alt="Under Armour Beanie Glove Combo">
+          <div class="winter-sale-slide-up-detail">
+            <a href="#UnderArmourBeanieGloveCombo">Details</a>
+          </div>
         </div>
-        <div class="sale-package-col2">
+        <div class="winter-sale-item-desc">
           <ul>
-            <li>Backpacking Rest & Refuel Package for Two</li>
-            <li>Sale Price : <span class="sale-package-price">$239.99 </span>(20% OFF)</li>
-            <li>(Original Price : $299.99)</li>
+            <li class="winter-sale-item-desc-1st">Under Armour Beanie Glove Combo</li>
+            <li>Sale Price : $20.99</li>
+            <li>(Original : $29.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>4.0
+            </li>
           </ul>
-          <button>ADD TO CART</button>
+        </div>
+        <button>ADD TO CART</button>
+      </div>
+      <div class="popup-detail" id="UnderArmourBeanieGloveCombo">
+        <div class="popup-detail-inner-container">
+          <div class="popup-detail-inner-container-col">
+            <img src="images/winter-saleitem3.jpg" alt="Under Armour Beanie Glove Combo">
+          </div>
+          <div class="popup-detail-inner-container-col">
+            <div class="popup-detail-item-detail">
+              <div class="popup-detail-item-name">
+                Under Armour Beanie Glove Combo
+                <br>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>4.0
+              </div>
+              <div class="popup-detail-features">
+                <ul>
+                  <li>Sale Price</li>
+                  <li>Instock</li>
+                  <li>Brand</li>
+                  <li>Size</li>
+                  <li>Age Range</li>
+                  <li>Color</li>
+                  <li>Hand Orientation</li>
+                  <li>Item Weight</li>
+                  <li>Closure Type</li>
+                </ul>
+                <ul>
+                  <li>: $20.99</li>
+                  <li>: 10</li>
+                  <li>: Under Armour</li>
+                  <li>: One Size</li>
+                  <li>: Big Kid</li>
+                  <li>: (330) Intensity</li>
+                  <li>: Ambidextrous</li>
+                  <li>: 0.07 Kilograms</li>
+                  <li>: Pull On</li>
+                </ul>
+              </div>
+              <div class="about-item">
+                <span>About Item</span>
+                <ul>
+                  <li>100% Polyester</li>
+                  <li>Imported</li>
+                  <li>Includes one pair of gloves & a matching winter beanie</li>
+                  <li>Soft, stretch knit construction delivers all-day comfort & warmth</li>
+                  <li>Ribbed cuff on gloves for a snug, comfortable fit</li>
+                  <li>Under Armour's mission is to make all athletes better through passion, design and the relentless
+                    pursuit of innovation.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="popup-detail-button">
+              <a href="#winter-sale-row">Close</a>
+              <button>Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sale-package-row2">
-        2 Backpacks, Lightweight backpacking tent for 2, 2 Lightweight Sleeping Bags, 2 Lightweight Sleeping Pads, 2
-        Pillows, 2 Headlamp, 1 Cook Set, 2 Dinner Sets, 1 Coffee Filter, 1 Backpacking Stove, 1 Fuel Canister For
-        Stove (8 oz), 1 Multitool
-      </div>
-    </div>
-    <div class="sale-package">
-      <div class="sale-package-row1">
-        <div class="sale-package-col">
-          <img src="images/equipments1.jpg" alt="">
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem4.jpg" alt="Little Buddy 3800-BTU Indoor Safe Propane Heater">
+          <div class="winter-sale-slide-up-detail">
+            <label>Details</label>
+          </div>
         </div>
-        <div class="sale-package-col2">
+        <div class="winter-sale-item-desc">
           <ul>
-            <li>Package Name: </li>
-            <li>Sale Price: </li>
+            <li class="winter-sale-item-desc-1st">Little Buddy 3800-BTU Indoor Safe Propane Heater</li>
+            <li>Sale Price : $44.99</li>
+            <li>(Original : $59.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>5.0
+            </li>
           </ul>
-          <button>ADD TO CART</button>
         </div>
+        <button>ADD TO CART</button>
       </div>
-      <div class="sale-package-row2">
-        Feature:
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem5.jpg" alt="Coleman NorthStar 1500 Lumens 1-Mantle Propane Lantern">
+          <div class="winter-sale-slide-up-detail">
+            <label>Details</label>
+          </div>
+        </div>
+        <div class="winter-sale-item-desc">
+          <ul>
+            <li class="winter-sale-item-desc-1st">Coleman NorthStar 1500 Lumens Propane Lantern</li>
+            <li>Sale Price : $39.99</li>
+            <li>(Original : $59.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>4.0
+            </li>
+          </ul>
+        </div>
+        <button>ADD TO CART</button>
+      </div>
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem6.jpg" alt="Kelty Cosmic 20 Degree 550 Down Fill Sleeping Bag">
+          <div class="winter-sale-slide-up-detail">
+            <label>Details</label>
+          </div>
+        </div>
+        <div class="winter-sale-item-desc">
+          <ul>
+            <li class="winter-sale-item-desc-1st">Kelty Cosmic 20 Degree 550 Down Fill Sleeping Bag</li>
+            <li>Sale Price : $54.99</li>
+            <li>(Original : $49.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
+          </ul>
+        </div>
+        <button>ADD TO CART</button>
+      </div>
+      <div class="winter-sale-item">
+        <div class="winter-sale-img-hover">
+          <img src="images/winter-saleitem7.jpg" alt="Jetboil MiniMo Stove">
+          <div class="winter-sale-slide-up-detail">
+            <label>Details</label>
+          </div>
+        </div>
+        <div class="winter-sale-item-desc">
+          <ul>
+            <li class="winter-sale-item-desc-1st">Jetboil MiniMo Stove</li>
+            <li>Sale Price : $84.99</li>
+            <li>(Original : $74.99)</li>
+            <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
+          </ul>
+        </div>
+        <button>ADD TO CART</button>
       </div>
     </div>
   </div>
+  <div class="eqbr" id="salepackage-row"></div>
+  <section class="sale-packages-section">
+    <h2 class="h2-sale-packages">
+      Hurry, limited-time sale packages available now! Don't miss out!
+      <i class="fa-solid fa-tag fa-beat-fade"></i>
+    </h2>
+    <div class="sale-package-container">
+      <div class="sale-package">
+        <div class="sale-package-row1">
+          <div class="sale-package-col">
+            <img src="images/sale-package1.jpg" alt="">
+          </div>
+          <div class="sale-package-col2">
+            <ul>
+              <li>2 Person Car Camping Package</li>
+              <li>Sale Price : <span class="sale-package-price">$467.50 </span>(25% OFF)</li>
+              <li>(Original Price : $649.99)</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 5/5</li>
+            </ul>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+        <div class="sale-package-row2">
+          One 4-Person Tent ,2 Sleeping Bags ,2 Basecamp Sleeping Pads ,2 TravelChair Camp Chairs ,2 Rechargeable Black
+          Diamond Headlamps ,One Electric UCO Lantern ,2-Burner Camp Stove ,4-Person Camp Cookset and One Premium Cooler
+        </div>
+      </div>
+      <div class="sale-package">
+        <div class="sale-package-row1">
+          <div class="sale-package-col">
+            <img src="images/sale-package2.jpg" alt="">
+          </div>
+          <div class="sale-package-col2">
+            <ul>
+              <li>Coleman - Solo Camp Start Package</li>
+              <li>Sale Price : <span class="sale-package-price">$339.99 </span>(15% OFF)</li>
+              <li>(Original Price : $400)</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star">
+                </i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 4.0/5</li>
+            </ul>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+        <div class="sale-package-row2">
+          One 1-Person Tents, 1 Sleeping Bag, 1 Stove, 1 Cookware Set, 1 Aluminium Table, 1 Camping Chair, 1 Lantern
+          <br>Set of 11, Package with essential camping items in one
+        </div>
+      </div>
+      <div class="sale-package">
+        <div class="sale-package-row1">
+          <div class="sale-package-col">
+            <img src="images/sale-package3.jpg" alt="">
+          </div>
+          <div class="sale-package-col2">
+            <ul>
+              <li>Rest & Refuel Package for Two</li>
+              <li>Sale Price : <span class="sale-package-price">$239.99 </span>(20% OFF)</li>
+              <li>(Original Price : $299.99)</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
+            </ul>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+        <div class="sale-package-row2">
+          2 Backpacks, Lightweight backpacking tent for 2, 2 Lightweight Sleeping Bags, 2 Lightweight Sleeping Pads, 2
+          Pillows, 2 Headlamp, 1 Cook Set, 2 Dinner Sets, 1 Coffee Filter, 1 Backpacking Stove, 1 Fuel Canister For
+          Stove (8 oz), 1 Multitool
+        </div>
+      </div>
+      <div class="sale-package">
+        <div class="sale-package-row1">
+          <div class="sale-package-col">
+            <img src="images/sale-package4.jpg" alt="">
+          </div>
+          <div class="sale-package-col2">
+            <ul>
+              <li>Package for Three (Summer Edition)</li>
+              <li>Sale Price : <span class="sale-package-price">$139.99 </span>(30% OFF)</li>
+              <li>(Original Price : $199.99)</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 4.0/5</li>
+            </ul>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+        <div class="sale-package-row2">
+          Tent for 3, 3 Pillows, 3 Sleeping bags, 3 Sleeping pads, Coffee press, 3 Headlamps, 3 Chairs, Cook
+          set, Prep set, Dinner set for 3, Stove, Fuel canister for stove (1), Hatchet, Multitool and Cooler
+        </div>
+      </div>
+    </div>
   </section>
   <div class="eqbr" id="starter-row"></div>
   <section class="budget-packages">
@@ -215,7 +556,9 @@
           <div class="normal-package-col2">
             <ul>
               <li>COMPLETE CAMPING STARTER KIT</li>
-              <li>Price : $549.99</li>
+              <li>Price : $749.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 4.0/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
@@ -229,35 +572,41 @@
       <div class="normal-package">
         <div class="normal-package-row1">
           <div class="normal-package-col">
-            <img src="images/equipments1.jpg" alt="">
+            <img src="images/starter-package2.jpg" alt="">
           </div>
           <div class="normal-package-col2">
             <ul>
-              <li>Package Name: </li>
-              <li>Sale Price: </li>
+              <li>Extensive Tent Bundle</li>
+              <li>Price : $399.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i> 4.5/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
         </div>
         <div class="normal-package-row2">
-          Feature:
+          Camping Equipment Family Cabin Tent Sleeping Bag Chairs Hiking Gear Included (Sleeps 6/28 Pieces)
         </div>
       </div>
       <div class="normal-package">
         <div class="normal-package-row1">
           <div class="normal-package-col">
-            <img src="images/equipments1.jpg" alt="">
+            <img src="images/starter-package3.jpg" alt="">
           </div>
           <div class="normal-package-col2">
             <ul>
-              <li>Package Name: </li>
-              <li>Sale Price: </li>
+              <li>2-Person Backpacking Package</li>
+              <li>Price : $449.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
         </div>
         <div class="normal-package-row2">
-          Feature:
+          MSR Hubba Hubba 2P backpacking tent, 2 Backpacks, 2 Sleeping Bags, 2 Backpacking Sleeping Pads, 2 Trekking
+          Poles, 2 Black Diamond Headlamps, Rechargeable Electric Lantern, Backpacking Stove (Jetboil OR Canister
+          stove), Bear Canister and GSI 2 Person Backpacking Cook set
         </div>
       </div>
     </div>
@@ -272,52 +621,61 @@
       <div class="normal-package">
         <div class="normal-package-row1">
           <div class="normal-package-col">
-            <img src="images/equipments1.jpg" alt="">
+            <img src="images/budget-package1.jpg" alt="">
           </div>
           <div class="normal-package-col2">
             <ul>
-              <li>Package Name: </li>
-              <li>Sale Price: </li>
+              <li>Minimalist Tent Bundle</li>
+              <li>Price : $149.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 5/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
         </div>
         <div class="normal-package-row2">
-          Feature:
+          6-Piece 5-Person Dome Tent Combo Set with 2 Sleeping Bags, 2 Camping Chairs, 1 Cooler, 6 Piece Set, and Dome
+          Tent(Blue)
         </div>
       </div>
       <div class="normal-package">
         <div class="normal-package-row1">
           <div class="normal-package-col">
-            <img src="images/equipments1.jpg" alt="">
+            <img src="images/budget-package2.jpg" alt="">
           </div>
           <div class="normal-package-col2">
             <ul>
-              <li>Package Name: </li>
-              <li>Sale Price: </li>
+              <li>Oak Creek Lost Valley Camping</li>
+              <li>Price : $89.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i> 3.5/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
         </div>
         <div class="normal-package-row2">
-          Feature:
+          Bundle Includes Mosquito Net, Rain Fly, Tree Straps, Compression Sack. Weighs Four Pounds, Perfect for
+          Camping. Lightweight Nylon Single Hammock.
         </div>
       </div>
       <div class="normal-package">
         <div class="normal-package-row1">
           <div class="normal-package-col">
-            <img src="images/equipments1.jpg" alt="">
+            <img src="images/budget-package3.jpg" alt="">
           </div>
           <div class="normal-package-col2">
             <ul>
-              <li>Package Name: </li>
-              <li>Sale Price: </li>
+              <li>Badass Hammocks System</li>
+              <li>Price : $119.99</li>
+              <li><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i> 4.5/5</li>
             </ul>
             <button>ADD TO CART</button>
           </div>
         </div>
         <div class="normal-package-row2">
-          Feature:
+          Hammock, Carabiners, Tree Straps, Mosquito Net, Rainfly, Footprint, Packaged in a Badass Backpack.
+          (Orange/Gray, 1000 lb)
         </div>
       </div>
     </div>
@@ -326,18 +684,14 @@
     <div class="footer-br"></div>
     <div class="footer-upper-container">
       <div class="footer-group">
-        <img src="images/GGlogo-footer.png" alt="gglogo" />
+        <img src="images/GGlogo-footer.png" alt="gglogo">
       </div>
       <div class="footer-group">
         <div class="contactus">
           <h2>Contact Us</h2>
           <ul>
-            <li>
-              <p>Ph_09254778132</p>
-            </li>
-            <li>
-              <p>geargurusupport@gmail.com</p>
-            </li>
+            <li>Ph_09254778132</li>
+            <li>geargurusupport@gmail.com</li>
           </ul>
         </div>
       </div>
